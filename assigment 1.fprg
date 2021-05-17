@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="PC_HP"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-05-16 09:09:23 PM"/>
+        <attribute name="created" value="UENfSFA7REVTS1RPUC0xS0VJTEoyOzIwMjEtMDUtMTY7MDk6MDQ6MzggUE07MjcyOA=="/>
+        <attribute name="edited" value="UENfSFA7REVTS1RPUC0xS0VJTEoyOzIwMjEtMDUtMTY7MDk6MDc6NTEgUE07MTg7VVNFUjtERVNLVE9QLTFWSEo0SzU7MjAyMS0wNS0xNjsxMTo1OTo1NCBBTTtBc3NpZ25tZW50IDEuLmZwcmc7NzI5NQ=="/>
+        <attribute name="edited" value="UENfSFA7REVTS1RPUC0xS0VJTEoyOzIwMjEtMDUtMTY7MDk6MDk6MjMgUE07MTsyODM1"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a" type="Integer" array="False" size=""/>
+            <declare name="b" type="Integer" array="False" size=""/>
+            <declare name="c" type="Integer" array="False" size=""/>
+            <declare name="sum" type="Integer" array="False" size=""/>
+            <declare name="sub" type="Integer" array="False" size=""/>
+            <declare name="multiply" type="Integer" array="False" size=""/>
+            <output expression="&quot; Enter the value of a &quot;" newline="True"/>
+            <input variable="a"/>
+            <output expression="&quot; Enter the value of b &quot;" newline="True"/>
+            <input variable="b"/>
+            <output expression="&quot; Enter the value of c &quot;" newline="True"/>
+            <input variable="c"/>
+            <assign variable="sum" expression="a+b+c"/>
+            <assign variable="sub" expression="a-b-c"/>
+            <assign variable="multiply" expression="a*b*c"/>
+            <output expression="&quot; the sum of &quot;&amp; a &amp;&quot; and &quot; &amp; b &amp; &quot; and &quot; &amp; c &amp; &quot; is &quot; &amp; sum &amp; &quot;.&quot;" newline="True"/>
+            <output expression="&quot;the sub of &quot;&amp; a &amp;&quot; and &quot; &amp; b &amp; &quot; and &quot; &amp; c &amp; &quot; is &quot; &amp; sub &amp; &quot;.&quot;" newline="True"/>
+            <output expression="&quot;the multiply of &quot;&amp; a &amp; &quot; and &quot; &amp; b &amp; &quot; and &quot; &amp; c &amp; &quot; is &quot; &amp; multiply &amp; &quot;.&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
